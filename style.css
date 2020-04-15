@@ -11,6 +11,7 @@
     transform: translate(-70%, -70%);
 }
 .section h1{
+    /* font-family: montserrat; install this font*/
     font-size: 64px;
     position: absolute;
     top: 20%;
@@ -30,4 +31,7 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
+}
+span{
+    background: black !important;
 }

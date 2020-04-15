@@ -1,6 +1,24 @@
 new fullpage ('#fullpage', {
+    // scrolling
     autoScrolling: true,
+    css3: true,
+    scrollingSpeed: 700,
+    autoScrolling: true,
+    fitToSection: true,
+    fitToSectionDelay: 1000,
+    easing: 'easeInOutCubic',
+    easingcss3: 'ease',
+    // navigation
     navigation: true,
+    navigationTooltips: ['Home', 'About Me', 'Skills', 'Projects', 'Contact Me', 'Articles'],
+    showActiveTooltip: true,
+    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+    menu: '#menu',
+    //Accessibility
+    keyboardScrolling: true,
+    animateAnchor: true,
+    recordHistory: true,
+
     // onLeave: (origin, destination, direction)=> {
     //     const section = destination.item;
     //     const title = section.querySelector("h1");
