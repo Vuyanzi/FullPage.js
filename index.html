@@ -9,11 +9,19 @@
     <title>Vuyanzi</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body> 
+<body>
+    <nav id="menu">
+        <div class="menu_items active">
+        <!-- <a class="menu-links hideme" data-menuanchor="firstPage" href="#firstPage">section 1</a> -->
+        <a class="skills" data-menuanchor="Skills" href="#">Skills</a>
+        <a class="projects" data-menuanchor="Projects" href="#">Projects</a>
+        <a class="contact_me" data-menuanchor="Contact Me" href="#">Contact Me</a>
+        </div>
+      </nav>
     <div id="fullpage">
         <!-- add scrollable parts -->
     <section class="section s1">
-        <h1>Home</h1>
+        <h1>I'm Vuyanzi</h1>
         <div class="description">
             <div class="author-title">
                 <h2>UI/UX Designer and Web Developer</h2>
@@ -24,7 +32,7 @@
         </div>
     </section>
     <section class="section s2">
-        <h1>About Me</h1>
+        <h1>Articles</h1>
         <h3 style="font-weight: bold">Hello, I'm Vuyanzi.Nice to meet you.</h3></br>
         <p>
             Since I begun my journey in tech a year ago,<br />I have collaborated with talented teams to
@@ -34,9 +42,12 @@
         </p>
     </section>
     <section class="section s3">
-        <h1>Skills</h1>
+        <h1>Volunteer</h1>
     </section>
     <section class="section s4">
+        <h1>Social</h1>
+    </section>
+    <section class="section s1">
         <h1>Projects</h1>
         <div class="slide" id="slide0">
             Section 0 Slide 0
@@ -49,13 +60,6 @@
         </div>
         <div class="slide" id="slide3">
             Section 0 Slide 3
-        </div>
-    </section>
-    <section class="section s1">
-        <h1>Contact Me</h1>
-    </section>
-    <section class="section s1">
-        <h1>Articles</h1>
     </section>
     </div>
     <script src="./fullpage.min.js"></script>

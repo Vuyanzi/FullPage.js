@@ -10,9 +10,9 @@ new fullpage ('#fullpage', {
     easingcss3: 'ease',
     // navigation
     navigation: true,
-    navigationTooltips: ['Home', 'About Me', 'Skills', 'Projects', 'Contact Me', 'Articles'],
+    navigationTooltips: ['Home', 'Articles', 'Volunteers', 'Social','Projects'],
     showActiveTooltip: true,
-    sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+    sectionsColor: ['#E0EBE8', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
     menu: '#menu',
     //Accessibility
     keyboardScrolling: true,
