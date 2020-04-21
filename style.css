@@ -3,6 +3,13 @@
     padding:0;
     box-sizing: border-box;
 }
+.icon{
+  position: absolute;
+  width: 69.48px;
+  height: 90px;
+  left: 443px;
+  top: 20px;
+}
 h1{
   position: absolute;
   left: 50%;
