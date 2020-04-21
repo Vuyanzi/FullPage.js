@@ -3,34 +3,42 @@
     padding:0;
     box-sizing: border-box;
 }
-.myface{
-    height: 60%;
-    position: absolute;
-    top: 70%;
-    left: 70%;
-    transform: translate(-70%, -70%);
+h1{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -20%);
+  font-family: Gill Sans MT;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 70px;
+  color: #217D68;
 }
-.section h1{
-    /* font-family: montserrat; install this font*/
-    font-size: 64px;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-}
-.description h2{
-    font-size: 58px;
+h2{
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -30%);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 180%;
+    line-height: 49px;
+    color: #000000;
 }
 .description p{
-    font-size: 50px;
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -40%);
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5em;
+    align-items: center;
+    text-align: center;
+    color: #000000
 }
 span{
     background: black !important;
